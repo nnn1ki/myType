@@ -1,0 +1,10 @@
+C:\Users\user\source\repos\myTypeLaba3\bin\Debug\myTypeLaba3.exe.config
+C:\Users\user\source\repos\myTypeLaba3\bin\Debug\myTypeLaba3.exe
+C:\Users\user\source\repos\myTypeLaba3\bin\Debug\myTypeLaba3.pdb
+C:\Users\user\source\repos\myTypeLaba3\obj\Debug\myTypeLaba3.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\myTypeLaba3\obj\Debug\myTypeLaba3.Form1.resources
+C:\Users\user\source\repos\myTypeLaba3\obj\Debug\myTypeLaba3.Properties.Resources.resources
+C:\Users\user\source\repos\myTypeLaba3\obj\Debug\myTypeLaba3.csproj.GenerateResource.cache
+C:\Users\user\source\repos\myTypeLaba3\obj\Debug\myTypeLaba3.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\myTypeLaba3\obj\Debug\myTypeLaba3.exe
+C:\Users\user\source\repos\myTypeLaba3\obj\Debug\myTypeLaba3.pdb
