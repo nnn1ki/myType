@@ -66,13 +66,13 @@ namespace myTypeLaba3
 
         public ComplexLogic(String first, String second)
         {
-            comp1 = makeComplex(first);
-            comp2 = makeComplex(second);
+            comp1 = makeComplexFromString(first);
+            comp2 = makeComplexFromString(second);
             
         }
 
         //метод для превращения входной строки в комплексное число
-        private complexNum makeComplex(String num)
+        private complexNum makeComplexFromString(String num)
         {
             complexNum ans = new complexNum();
 
@@ -84,46 +84,51 @@ namespace myTypeLaba3
             return ans; 
         }
 
-        public complexNum summa()
+        private String makeStringFromComplex(complexNum num)
+        {
+            return Convert.ToString(num.real) + "+i" + Convert.ToString(num.imaginary); 
+        }
+
+        public String summa()
         {
             //комплексные числа складывются сооьветвенно - реальная отдельно, мнимая отдельно            
             
 
             ans.real = comp1.real + comp2.real;
-            ans.imaginary = comp1.imaginary + comp2.imaginary; 
+            ans.imaginary = comp1.imaginary + comp2.imaginary;
 
-            return ans;
+            return makeStringFromComplex(ans);
         }
 
-        public complexNum difference()
+        public String difference()
         {
             //complexNum ans = new complexNum();
 
             ans.real = comp1.real - comp2.real;
             ans.imaginary = comp1.imaginary - comp2.imaginary;
 
-            return ans;
+            return makeStringFromComplex(ans);
         }
 
-        public complexNum multiplication()
+        public String multiplication()
         {
             //complexNum ans = new complexNum();
 
             ans.real = (comp1.real * comp2.real) - (comp1.imaginary * comp2.imaginary);
             ans.imaginary = (comp1.real * comp2.imaginary) + (comp1.imaginary * comp2.real);
 
-            return ans;
+            return makeStringFromComplex(ans);
         }
 
 
-        public complexNum division()
+        public String division()
         {
             //complexNum ans = new complexNum();
 
             ans.real = (comp1.real * comp2.real + comp1.imaginary * comp2.imaginary) / (comp2.real * comp2.real + comp2.imaginary * comp2.imaginary);
             ans.imaginary = (comp1.imaginary * comp2.real - comp1.real * comp2.imaginary) / (comp2.real * comp2.real + comp2.imaginary * comp2.imaginary);
 
-            return ans;
+            return makeStringFromComplex(ans);
         }
 
 
