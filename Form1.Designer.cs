@@ -89,11 +89,13 @@ namespace myTypeLaba3
             // 
             // textSecondNum
             // 
+            this.textSecondNum.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textSecondNum.Location = new System.Drawing.Point(12, 109);
             this.textSecondNum.Multiline = true;
             this.textSecondNum.Name = "textSecondNum";
             this.textSecondNum.Size = new System.Drawing.Size(279, 60);
             this.textSecondNum.TabIndex = 16;
+            this.textSecondNum.Text = "ВТОРОЕ ЧИСЛО";
             // 
             // button16
             // 
@@ -106,19 +108,23 @@ namespace myTypeLaba3
             // 
             // textFirstNum
             // 
+            this.textFirstNum.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textFirstNum.Location = new System.Drawing.Point(11, 43);
             this.textFirstNum.Multiline = true;
             this.textFirstNum.Name = "textFirstNum";
             this.textFirstNum.Size = new System.Drawing.Size(280, 60);
             this.textFirstNum.TabIndex = 18;
+            this.textFirstNum.Text = "ПЕРВОЕ ЧИСЛО";
             // 
             // textAnswer
             // 
+            this.textAnswer.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textAnswer.Location = new System.Drawing.Point(11, 221);
             this.textAnswer.Multiline = true;
             this.textAnswer.Name = "textAnswer";
             this.textAnswer.Size = new System.Drawing.Size(280, 60);
             this.textAnswer.TabIndex = 19;
+            this.textAnswer.Text = "ОТВЕТ";
             // 
             // Form1
             // 
